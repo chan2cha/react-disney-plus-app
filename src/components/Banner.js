@@ -27,7 +27,6 @@ export const Banner = () => {
       params: { append_to_response: "videos" },
     });
     setMovie(movieDetail);
-    console.log(request);
   };
   const trunscate = (str, n) => {
     return str?.length > n ? str.substring(0, n) + "..." : str;
